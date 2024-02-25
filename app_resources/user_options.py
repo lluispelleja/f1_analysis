@@ -25,7 +25,7 @@ driver_colors = {'alexander albon': '#005aff', 'carlos sainz': '#ff8181', 'charl
                  'nyck de vries': '#1e3d61', 'oliver bearman': '#c40000', 'oscar piastri': '#ff8700', 'pato oward': '#ee6d3a', 
                  'pierre gasly': '#0090ff', 'robert shwartzman': '#9c0000', 'sergio perez': '#716de2', 'theo pourchaire': '#700000', 
                  'valtteri bottas': '#900000', 'yuki tsunoda': '#356cac', 'zak osullivan': '#1b3d97', 'zhou guanyu': '#500000',
-                 'mick schumacher': '#1b3d97', "nicolas latifi": '#9c0000', "sebastian vettel":"#1b3d97", 'antonio giovinatzi':"#500000",
+                 'mick schu.': '#1b3d97', "nicolas latifi": '#9c0000', "sebastian vettel":"#1b3d97", 'antonio giovinatzi':"#500000",
                  'kimmi raikonen': '#1e3d61', "mazepin": '#9c0000'}
 
 driver_translate = {'ALB': 'alexander albon', 'ALO': 'fernando alonso', 'BEA': 'oliver bearman', 'BOT': 'valtteri bottas', 
@@ -35,7 +35,7 @@ driver_translate = {'ALB': 'alexander albon', 'ALO': 'fernando alonso', 'BEA': '
                     'OSU': 'zak osullivan', 'OWA': 'pato oward', 'PER': 'sergio perez', 'PIA': 'oscar piastri', 
                     'POU': 'theo pourchaire', 'RIC': 'daniel ricciardo', 'RUS': 'george russell', 'SAI': 'carlos sainz', 
                     'SAR': 'logan sargeant', 'SHW': 'robert shwartzman', 'STR': 'lance stroll', 'TSU': 'yuki tsunoda', 
-                    'VER': 'max verstappen', 'VES': 'frederik vesti', 'ZHO': 'zhou guanyu', 'MSC':"mick schumacher", 
+                    'VER': 'max verstappen', 'VES': 'frederik vesti', 'ZHO': 'zhou guanyu', 'MSC':"mick schu.", 
                     "LAT": "nicolas latifi", "VET": "sebastian vettel", "GIO": "antonio giovinatzi", "RAI": "kimmi raikonen",
                     "MAZ": "mazepin"}
 

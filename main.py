@@ -29,7 +29,7 @@ with tab0:
         st.info('In this tab you can compare between several drivers using the legends of the graphs as filters.', icon="💡")
 
 with tab1:
-    col1, col2, col23, col3 = st.columns(4)
+    col1, col2, col23, col3 = st.columns([1,1,2,0.1])
 
     with col1:
         year = st.selectbox('Select the year:', years, key=1)
@@ -43,6 +43,9 @@ with tab1:
             races_years = races_2023
     
     if year != "Select Year" and races != "Select a GP":
+        with col23:
+            st.info('The first time a session is uploaded it may take a few minutes as there is a lot of data, you can see the upload status on the top right hand side of the screen.', icon="ℹ️")
+        
         race = fastf1.get_session(year, races_years[races], "R")
         race.load()
         
@@ -105,6 +108,8 @@ with tab2:
             races_years = races_2023
             
     if year != "Select Year" and drivers_1 != "Select a driver" and drivers_2 != "Select a driver" and races != "Select a GP":
+        st.info('The first time a session is uploaded it may take a few minutes as there is a lot of data, you can see the upload status on the top right hand side of the screen.', icon="ℹ️")
+        
         session = fastf1.get_session(year, races_years[races], "R")
         session.load()
         driver_ls = [drivers_1, drivers_2]
@@ -134,7 +139,7 @@ with tab2:
         delta_times(session, drivers_1, drivers_2)
         
 with tab3:
-    col1, col2, col23, col3 = st.columns(4)
+    col1, col2, col23, col3 = st.columns([1,1,2,0.1])
 
     with col1:
         year = st.selectbox('Select the year:', years, key=165464)
@@ -148,6 +153,9 @@ with tab3:
             races_years = races_2023
     
     if year != "Select Year" and races != "Select a GP":
+        with col23:
+            st.info('The first time a session is uploaded it may take a few minutes as there is a lot of data, you can see the upload status on the top right hand side of the screen.', icon="ℹ️")
+        
         qualy = fastf1.get_session(year, races_years[races], "Q")
         qualy.load(telemetry=True)
         
