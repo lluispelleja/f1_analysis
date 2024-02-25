@@ -11,21 +11,21 @@ tab0, tab1, tab2, tab3 = st.tabs(["Home", "Race Overview", "Driver comparison in
 
 with tab0:
     st.subheader("Welcome to F1 Analysisi hub")
-    st.write("Here you will find all the insights of every Formula 1 race. This application has been built so that Formula 1 fans can access information about the competition and for who want to go one step further and watch the sport they love from a closer distance.")
+    st.write("Here you will find all the insights of every Formula 1 race. This application has been built for the Formula 1 fans to access to the information about the competition and for who want to go one step further and watch the sport from a more detailed view.")
     st.write("")
     st.markdown(f'<p style="font-size: 20px;font-weight: bold;margin-bottom: 0px;">How the application works?</p>', unsafe_allow_html=True)
-    st.write("The application has three tabs located at the top of the screen, each tab has its use case and its purpose, here I show you each of them:")
+    st.write("The application has three tabs located at the top of the screen, each tab has its use case and its purpose:")
     
     col1, col2 = st.columns([0.02, 1.98])
     
     with col2:
-        st.write('- **Race Overview**: In this tab you can select any race of the years 2022 and 2023 to have an overview of what happened in it, when you choose the race it will start loading the data and it will show you different graphs that you can interact with, in each graph there is an explanation of how to make a good use of it and all its features. ')
+        st.write('- **Race Overview**: In this tab you can select any race of the years 2022 and 2023 to have an overview of what happened in it, when you choose the race it will start loading the data and show you different graphs that you can interact with, such as driver positions, driver lap times and car telemetries. In each graph there is an explanation of how to make a good use of it and all its features. ')
         st.info('The first time a session is uploaded it may take a few minutes as there is a lot of data, you can see the upload status on the top right hand side of the screen.', icon="ℹ️")
         
-        st.write('- **Driver comparison in race**: In this tab you can choose any race from the years 2022 and 2023, in this case it will let you choose two drivers who participated that year in the championship to make a comparison between them. In this case it will display different graphics to the first tab adding the comparison of their best lap in the race and the time difference in the race.')
+        st.write('- **Driver comparison in race**: In this tab you can choose any race from the years 2022 and 2023, in this case it will let you choose two drivers who participated that year in the championship to make a comparison between them, the graphs to be displayed are such as driver positions, driver lap times and car telemetries. In this case it will display different graphics to the first tab adding the comparison of their best lap in the race and the time difference in the race.')
         st.info('On charts where a legend is available you can filter by double-clicking on the first pilot and single-clicking on the following ones, to reset the filter double-click on the legend again.', icon="💡")
         
-        st.write('- **Qualifying Overview**: In this tab you can choose the Qualy of any Grand Prix held in the years 2022 and 2023, by doing so the application will load different graphs to be able to analyse the performance of each driver in the session and their best lap times.')
+        st.write("- **Qualifying Overview**: In this tab you can choose the Qualy of any Grand Prix held in the years 2022 and 2023, by doing so the application will load different graphs to be able to analyse the performance of each driver in the session and their best lap times, these graphs will be the ranking of the drivers in each session, the comparison of the drivers' laps and much more.")
         st.info('In this tab you can compare between several drivers using the legends of the graphs as filters.', icon="💡")
 
 with tab1:
