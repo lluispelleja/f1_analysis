@@ -20,9 +20,12 @@ def race_position_all_drivers(session):
     for drv in drivers_ls:
         drv_laps = session.laps.pick_driver(drv)
 
-        abb = drv_laps['Driver'].iloc[0]
-        abb_ = driver_translate[abb]
-        color = driver_colors[abb_]
+        try:
+            abb = drv_laps['Driver'].iloc[0]
+            abb_ = driver_translate[abb]
+            color = driver_colors[abb_]
+        except IndexError:
+            pass
 
         fig.add_trace(go.Scatter(x=drv_laps['LapNumber'], y=drv_laps['Position'],
                                  mode='lines', name=abb, line=dict(color=color)))
