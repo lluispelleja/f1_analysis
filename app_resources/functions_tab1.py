@@ -15,15 +15,17 @@ from matplotlib import colormaps
 def race_position_all_drivers(session):
     fig = go.Figure()
     
-    for drv in session.drivers:
-        drv_laps = session.laps.pick_driver(drv)
+    drivers_ls = session.drivers
+
+    for drv in drivers_ls:
+        drv_laps = session.laps.pick_driver("SAI")
 
         abb = drv_laps['Driver'].iloc[0]
         abb_ = driver_translate[abb]
         color = driver_colors[abb_]
 
         fig.add_trace(go.Scatter(x=drv_laps['LapNumber'], y=drv_laps['Position'],
-                                mode='lines', name=abb, line=dict(color=color)))
+                                 mode='lines', name=abb, line=dict(color=color)))
 
     fig.update_layout(
         xaxis_title="Lap",
