@@ -18,7 +18,7 @@ def race_position_all_drivers(session):
     drivers_ls = session.drivers
 
     for drv in drivers_ls:
-        drv_laps = session.laps.pick_driver("SAI")
+        drv_laps = session.laps.pick_driver(drv)
 
         abb = drv_laps['Driver'].iloc[0]
         abb_ = driver_translate[abb]
