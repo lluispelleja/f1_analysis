@@ -7,6 +7,9 @@ drivers_2022 = ["Select a driver", "VER", "PER", "SAI", "LEC", "RUS", "HAM", "GA
 drivers_2023 = ["Select a driver", "VER", "PER", "SAI", "LEC", "RUS", "HAM", "GAS", "OCO", "MAG", "HUL",
                 "NOR", "PIA", "STR", "ALO", "TSU", "DEV", "BOT", "ZHO", "ALB", "SAR"]
 
+drivers_2024 = ["Select a driver", "VER", "PER", "SAI", "LEC", "RUS", "HAM", "GAS", "OCO", "MAG", "HUL",
+                "NOR", "PIA", "STR", "ALO", "TSU", "DEV", "BOT", "ZHO", "ALB", "SAR", "RIC"]
+
 races_2022 = {"Select a GP": 0, "Bahrein GP": 1, "Saudi Arabia GP": 2, "Australian GP": 3, "Italy (Emillia Romagna) GP": 4, "United States (Miami) GP": 5, "Spain GP": 6,
               "Monaco GP": 7, "Azerbaijan GP": 8, "Canada GP": 9, "Great Britain GP": 10, "Austria GP": 11, "France GP": 12, "Hungary GP": 13, "Belgium": 14,
               "Netherlands GP": 15, "Italy (Monza) GP": 16, "Singapore GP": 17, "Japan GP": 18, "United States (Austin) GP": 19, "Mexico GP": 20, "Brazil GP": 21,
@@ -16,6 +19,8 @@ races_2023 = {"Select a GP": 0, "Bahrein GP": 1, "Saudi Arabia GP": 2, "Australi
               "Monaco GP": 6, "Spain GP": 7, "Canada GP": 8, "Austria GP": 9, "Great Britain GP": 10, "Hungary GP": 11, "Belgium GP": 12, "Netherlands GP": 13,
               "Italy (Monza) GP": 14, "Singapore GP": 15, "Japan GP": 16, "Qatar GP": 17, "United States (Austin) GP": 18, "Mexico GP": 19, "Brazil GP": 20,
               "United States (Las Vegas) GP": 21, "Abu Dhabi GP": 22}
+
+races_2024 = {"Select a GP": 0, "Bahrein GP": 1}
 
 driver_colors = {'alexander albon': '#005aff', 'carlos sainz': '#ff8181', 'charles leclerc': '#dc0000', 'daniel ricciardo': '#2b4562', 
                  'esteban ocon': '#70c2ff', 'felipe drugovich': '#2f9b90', 'fernando alonso': '#006f62', 'frederik vesti': '#00a6ff', 
