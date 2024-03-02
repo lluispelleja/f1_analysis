@@ -1,5 +1,5 @@
 import streamlit as st
-from app_resources.user_options import years, drivers_2022, drivers_2023, races_2022, races_2023
+from app_resources.user_options import years, drivers_2022, drivers_2023, drivers_2024, races_2022, races_2023, races_2024
 from app_resources.functions_tab1 import race_position_all_drivers, tyre_strategy_all_drivers, team_pace, gear_map, speed_map, driver_times, all_driver_LapTimes
 from app_resources.functions_tab2 import race_position, driver_LapTimes, tyre_strategy, speed, delta_times, delta_race
 from app_resources.functions_tab3 import qualy_results, qualy_result_graph, qualy_lap_comp
@@ -41,6 +41,9 @@ with tab1:
         elif year == 2023:
             races = st.selectbox("Select the race:", races_2023)
             races_years = races_2023
+        elif year == 2024:
+            races = st.selectbox("Select the race:", races_2024)
+            races_years = races_2024
     
     if year != "Select Year" and races != "Select a GP":
         with col23:
@@ -92,12 +95,16 @@ with tab2:
             drivers_1 = st.selectbox("Select the 1st driver:", drivers_2022, key=22345678)
         elif year == 2023:
             drivers_1 = st.selectbox("Select the 1st driver:", drivers_2023, key=22345678)
+        elif year == 2024:
+            drivers_1 = st.selectbox("Select the 1st driver:", drivers_2024, key=2234567558)
 
     with col23:
         if year == 2022 and drivers_1 != "Select a driver":
             drivers_2 = st.selectbox("Select the 2nd driver", drivers_2022, key=33456789)
         elif year == 2023 and drivers_1 != "Select a driver":
             drivers_2 = st.selectbox("Select the 2nd driver", drivers_2023, key=33456789)
+        elif year == 2024 and drivers_1 != "Select a driver":
+            drivers_2 = st.selectbox("Select the 2nd driver", drivers_2024, key=3345672389)
 
     with col3:
         if year == 2022 and drivers_1 != "Select a driver" and drivers_2 != "Select a driver":
@@ -106,6 +113,9 @@ with tab2:
         elif year == 2023 and drivers_1 != "Select a driver" and drivers_2 != "Select a driver":
             races = st.selectbox("Select the race:", races_2023, key=34567890)
             races_years = races_2023
+        elif year == 2024 and drivers_1 != "Select a driver" and drivers_2 != "Select a driver":
+            races = st.selectbox("Select the race:", races_2024, key=3456657890)
+            races_years = races_2024
             
     if year != "Select Year" and drivers_1 != "Select a driver" and drivers_2 != "Select a driver" and races != "Select a GP":
         st.info('The first time a session is uploaded it may take a few minutes as there is a lot of data, you can see the upload status on the top right hand side of the screen.', icon="ℹ️")
@@ -151,6 +161,9 @@ with tab3:
         elif year == 2023:
             races = st.selectbox("Select the race:", races_2023, key=456123)
             races_years = races_2023
+        elif year == 2024:
+            races = st.selectbox("Select the race:", races_2024, key=456123)
+            races_years = races_2024
     
     if year != "Select Year" and races != "Select a GP":
         with col23:

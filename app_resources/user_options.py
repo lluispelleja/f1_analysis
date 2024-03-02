@@ -1,4 +1,4 @@
-years = ["Select Year", 2022,2023]
+years = ["Select Year", 2022, 2023, 2024]
 
 drivers_2022 = ["Select a driver", "VER", "PER", "SAI", "LEC", "RUS", "HAM", "GAS", "OCO", "MAG", "HUL",
                 "NOR", "RIC", "STR", "ALO", "TSU", "DEV", "BOT", "ZHO", "ALB", "LAT",
