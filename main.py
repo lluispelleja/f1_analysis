@@ -1,5 +1,5 @@
 import streamlit as st
-from app_resources.user_options import years, drivers_2022, drivers_2023, drivers_2024, races_2022, races_2023, races_2024
+from app_resources.user_options import years, drivers_2022, drivers_2023, drivers_2024 , races_2022, races_2023, races_2024
 from app_resources.functions_tab1 import race_position_all_drivers, tyre_strategy_all_drivers, team_pace, gear_map, speed_map, driver_times, all_driver_LapTimes
 from app_resources.functions_tab2 import race_position, driver_LapTimes, tyre_strategy, speed, delta_times, delta_race
 from app_resources.functions_tab3 import qualy_results, qualy_result_graph, qualy_lap_comp

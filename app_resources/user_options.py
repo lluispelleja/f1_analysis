@@ -8,7 +8,7 @@ drivers_2023 = ["Select a driver", "VER", "PER", "SAI", "LEC", "RUS", "HAM", "GA
                 "NOR", "PIA", "STR", "ALO", "TSU", "DEV", "BOT", "ZHO", "ALB", "SAR"]
 
 drivers_2024 = ["Select a driver", "VER", "PER", "SAI", "LEC", "RUS", "HAM", "GAS", "OCO", "MAG", "HUL",
-                "NOR", "PIA", "STR", "ALO", "TSU", "DEV", "BOT", "ZHO", "ALB", "SAR", "RIC"]
+                "NOR", "PIA", "STR", "ALO", "TSU", "DEV", "BOT", "ZHO", "ALB", "SAR", "RIC", "BEA"]
 
 races_2022 = {"Select a GP": 0, "Bahrein GP": 1, "Saudi Arabia GP": 2, "Australian GP": 3, "Italy (Emillia Romagna) GP": 4, "United States (Miami) GP": 5, "Spain GP": 6,
               "Monaco GP": 7, "Azerbaijan GP": 8, "Canada GP": 9, "Great Britain GP": 10, "Austria GP": 11, "France GP": 12, "Hungary GP": 13, "Belgium": 14,
@@ -20,7 +20,7 @@ races_2023 = {"Select a GP": 0, "Bahrein GP": 1, "Saudi Arabia GP": 2, "Australi
               "Italy (Monza) GP": 14, "Singapore GP": 15, "Japan GP": 16, "Qatar GP": 17, "United States (Austin) GP": 18, "Mexico GP": 19, "Brazil GP": 20,
               "United States (Las Vegas) GP": 21, "Abu Dhabi GP": 22}
 
-races_2024 = {"Select a GP": 0, "Bahrein GP": 1}
+races_2024 = {"Select a GP": 0, "Bahrein GP": 1, "Saudi Arabia GP": 2}
 
 driver_colors = {'alexander albon': '#005aff', 'carlos sainz': '#ff8181', 'charles leclerc': '#dc0000', 'daniel ricciardo': '#2b4562', 
                  'esteban ocon': '#70c2ff', 'felipe drugovich': '#2f9b90', 'fernando alonso': '#006f62', 'frederik vesti': '#00a6ff', 
@@ -31,7 +31,7 @@ driver_colors = {'alexander albon': '#005aff', 'carlos sainz': '#ff8181', 'charl
                  'pierre gasly': '#0090ff', 'robert shwartzman': '#9c0000', 'sergio perez': '#716de2', 'theo pourchaire': '#700000', 
                  'valtteri bottas': '#900000', 'yuki tsunoda': '#356cac', 'zak osullivan': '#1b3d97', 'zhou guanyu': '#500000',
                  'mick schu.': '#1b3d97', "nicolas latifi": '#9c0000', "sebastian vettel":"#1b3d97", 'antonio giovinatzi':"#500000",
-                 'kimmi raikonen': '#1e3d61', "mazepin": '#9c0000'}
+                 'kimmi raikonen': '#1e3d61', "mazepin": '#9c0000', "bearman": '#ff8181'}
 
 driver_translate = {'ALB': 'alexander albon', 'ALO': 'fernando alonso', 'BEA': 'oliver bearman', 'BOT': 'valtteri bottas', 
                     'DEN': 'jake dennis', 'DEV': 'nyck de vries', 'DOO': 'jack doohan', 'DRU': 'felipe drugovich', 'GAS': 
@@ -42,7 +42,7 @@ driver_translate = {'ALB': 'alexander albon', 'ALO': 'fernando alonso', 'BEA': '
                     'SAR': 'logan sargeant', 'SHW': 'robert shwartzman', 'STR': 'lance stroll', 'TSU': 'yuki tsunoda', 
                     'VER': 'max verstappen', 'VES': 'frederik vesti', 'ZHO': 'zhou guanyu', 'MSC':"mick schu.", 
                     "LAT": "nicolas latifi", "VET": "sebastian vettel", "GIO": "antonio giovinatzi", "RAI": "kimmi raikonen",
-                    "MAZ": "mazepin"}
+                    "MAZ": "mazepin", "BEA": "bearman"}
 
 TEAM_COLORS = {'Alfa Romeo': '#900000', 'AlphaTauri': '#2b4562', 'Alpine': '#0090ff', 'Aston Martin': '#006f62', 'Ferrari': '#dc0000', 
                'Haas F1 Team': '#636363', 'McLaren': '#ff8700', 'Mercedes': '#00d2be', 'Red Bull Racing': '#0600ef', 'Williams': '#005aff'}
