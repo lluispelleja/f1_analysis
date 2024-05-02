@@ -20,7 +20,7 @@ races_2023 = {"Select a GP": 0, "Bahrein GP": 1, "Saudi Arabia GP": 2, "Australi
               "Italy (Monza) GP": 14, "Singapore GP": 15, "Japan GP": 16, "Qatar GP": 17, "United States (Austin) GP": 18, "Mexico GP": 19, "Brazil GP": 20,
               "United States (Las Vegas) GP": 21, "Abu Dhabi GP": 22}
 
-races_2024 = {"Select a GP": 0, "Bahrein GP": 1, "Saudi Arabia GP": 2}
+races_2024 = {"Select a GP": 0, "Bahrein GP": 1, "Saudi Arabia GP": 2, "Japan GP": 3, "China GP": 4}
 
 driver_colors = {'alexander albon': '#005aff', 'carlos sainz': '#ff8181', 'charles leclerc': '#dc0000', 'daniel ricciardo': '#2b4562', 
                  'esteban ocon': '#70c2ff', 'felipe drugovich': '#2f9b90', 'fernando alonso': '#006f62', 'frederik vesti': '#00a6ff', 
